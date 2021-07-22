@@ -1,0 +1,15 @@
+Package: organizr
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Lucas",
+           family = "Moraes",
+           role = c("aut", "cre"),
+           email = "moraessaur@gmail.com",
+           comment = c(ORCID = "0000-0002-1454-7491"))
+Description: Package to help me organize my projects.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
