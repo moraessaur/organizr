@@ -20,6 +20,7 @@ list_packages <- function(){
       grep("library",x,value = T) %>%
       gsub("\\(","",.) %>%
       gsub("\\)","",.) %>%
+      gsub("\\'","",.) %>%
       gsub("library","",.)
   }
 
