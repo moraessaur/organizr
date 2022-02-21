@@ -14,5 +14,6 @@ create_backbone_files <- function(){
   c <- dir.create("notebooks")
   d <- dir.create("data_raw")
   e <- dir.create("data_processed")
+  f <- dir.create("dumpster")
   return(list(a,b))
 }
